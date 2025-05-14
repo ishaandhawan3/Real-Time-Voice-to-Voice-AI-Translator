@@ -13,8 +13,8 @@ load_dotenv()
 
 # # Load AssemblyAI and ElevenLabs API keys
 # aai.settings.api_key = "ASSEMBLYAI_API_KEY" # your assemblyai api key
-# elevenlabs_api_key = "ELEVENLABS_API_KEY" # your elevenlabs api key
 # Load ElevenLabs API key   
+# elevenlabs_api_key = "ELEVENLABS_API_KEY" # your elevenlabs api key
 
 def voice_to_voice(audio_file):
     
