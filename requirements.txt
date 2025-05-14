@@ -1,11 +1,7 @@
 gradio 
-torch
-transformers
-requests
-numpy
-librosa
-TTS
-whisper 
-os
-sounddevice
-googletrans
+pathlib
+uuid
+elevenlabs
+assemblyai
+translate
+dotenv
