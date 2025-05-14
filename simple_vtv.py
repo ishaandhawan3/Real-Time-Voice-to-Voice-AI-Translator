@@ -41,7 +41,7 @@ def voice_to_voice(audio_file):
 
 def audio_transcription(audio_file):
 
-    aai.settings.api_key = "27bc3a08ca5c42dd91abf3b5e2724ed6" # your assemblyai api key
+    aai.settings.api_key = "<your assemblyai API key>" # your assemblyai api key
 
     transcriber = aai.Transcriber()
     transcription = transcriber.transcribe(audio_file)
@@ -64,12 +64,12 @@ def text_translation(text):
 def text_to_speech(text):
 
     client = ElevenLabs(
-        api_key= "sk_18d1fff6b0d8215a761214934b8cbbf51b1ddc0ad2642819", # your elevenlabs api key
+        api_key= "<your elevenlabs API key>", # your elevenlabs api key
     )
 
     # Calling the text_to_speech conversion API with detailed parameters
     response = client.text_to_speech.convert(
-        voice_id="bm7XTgg9YMg8xU57iYiD", #clone your voice on elevenlabs dashboard and copy the id
+        voice_id="<Your voice id>", #clone your voice on elevenlabs dashboard and copy the id
         optimize_streaming_latency="0",
         output_format="mp3_22050_32",
         text=text,
