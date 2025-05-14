@@ -40,11 +40,17 @@ The Gradio interface will launch in your browser. Click the microphone to record
 File Structure
 text
 voice-to-voice-translator/
+
 │
+
 ├── app.py          # Main application script
+
 ├── .env            # Environment variables (not included in repo)
+
 ├── requirements.txt
+
 └── README.md
+
 Acknowledgements
 AssemblyAI for speech-to-text
 
